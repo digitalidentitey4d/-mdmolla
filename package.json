@@ -1,0 +1,35 @@
+{
+  "name": "citation-uslawdotlink",
+  "author": "Joshua Tauberer <jt@occams.info",
+  "description": "The website uslaw.link.",
+  "version": "0.8.1",
+  "license": "cc0",
+  "keywords": [
+    "congress",
+    "laws",
+    "legal",
+    "citations",
+    "us code",
+    "regulations"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unitedstates/uslawdotlink"
+  },
+  "bin": {
+    "uslawdotlink": "./server.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "buffer-replace": "^1.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "forever": "^1.0.0",
+    "js-yaml": "^3.13.1",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
